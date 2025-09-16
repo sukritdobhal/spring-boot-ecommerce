@@ -81,7 +81,7 @@ public class CartController {
         }
     }
 
-    @DELETE("/clear")
+    @DeleteMapping("/clear")
     @PreAuthorize("hasRole('USER')")
     public ResponseEntity<?> clearCart(@AuthenticationPrincipal UserPrincipal userPrincipal) {
         try {
