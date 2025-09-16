@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "java -jar target/spring-boot-ecommerce-1.0.0.jar --spring.profiles.active=railway"
+healthcheckPath = "/health"
