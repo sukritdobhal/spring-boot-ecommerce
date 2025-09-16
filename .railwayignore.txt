@@ -1,0 +1,9 @@
+.git/
+*.log
+logs/
+target/surefire-reports/
+.DS_Store
+.idea/
+*.iml
+*.iws
+.vscode/
